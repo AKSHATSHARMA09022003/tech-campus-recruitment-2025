@@ -1,0 +1,1 @@
+This Python script extracts logs for a specific date from a large log file (~1TB) efficiently. It reads the file line by line to avoid memory issues, filters logs using regex, and saves the results in output/output_YYYY-MM-DD.txt. It handles errors gracefully and ensures optimized I/O operations for fast processing.
